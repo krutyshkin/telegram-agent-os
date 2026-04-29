@@ -1,0 +1,129 @@
+{
+  "name": "telegram-agent-os-selected-agents",
+  "description": "Sanitized selected agent prompts grouped by Telegram Agent OS role.",
+  "private_identifiers": "removed",
+  "source_prefixes": "removed",
+  "language": "en",
+  "roles": {
+    "automation": {
+      "count": 4,
+      "files": [
+        "automation/context-manager.md",
+        "automation/governance-architect.md",
+        "automation/workflow-architect.md",
+        "automation/workflow-orchestrator.md"
+      ]
+    },
+    "content": {
+      "count": 4,
+      "files": [
+        "content/content-creator.md",
+        "content/linkedin-content-creator.md",
+        "content/marketer.md",
+        "content/twitter-engager.md"
+      ]
+    },
+    "design": {
+      "count": 5,
+      "files": [
+        "design/brand-guardian.md",
+        "design/image-prompt-engineer.md",
+        "design/ui-designer-2.md",
+        "design/ui-designer.md",
+        "design/ux-architect.md"
+      ]
+    },
+    "dev": {
+      "count": 6,
+      "files": [
+        "dev/backend-architect.md",
+        "dev/code-reviewer.md",
+        "dev/frontend-developer.md",
+        "dev/python-pro.md",
+        "dev/test-automator.md",
+        "dev/typescript-pro.md"
+      ]
+    },
+    "devops": {
+      "count": 4,
+      "files": [
+        "devops/deployment-engineer.md",
+        "devops/engineer.md",
+        "devops/kubernetes-architect.md",
+        "devops/terraform-specialist.md"
+      ]
+    },
+    "docs": {
+      "count": 4,
+      "files": [
+        "docs/api-documenter.md",
+        "docs/architect.md",
+        "docs/documentation-engineer.md",
+        "docs/tutorial-engineer.md"
+      ]
+    },
+    "marketing": {
+      "count": 5,
+      "files": [
+        "marketing/content-creator.md",
+        "marketing/content-marketer.md",
+        "marketing/growth-hacker.md",
+        "marketing/seo-specialist.md",
+        "marketing/social-media-strategist.md"
+      ]
+    },
+    "memory": {
+      "count": 3,
+      "files": [
+        "memory/context-manager.md",
+        "memory/knowledge-synthesizer.md",
+        "memory/workflow-with-memory.md"
+      ]
+    },
+    "orchestrator": {
+      "count": 4,
+      "files": [
+        "orchestrator/context-manager.md",
+        "orchestrator/multi-agent-coordinator.md",
+        "orchestrator/orchestrator.md",
+        "orchestrator/task-distributor.md"
+      ]
+    },
+    "product": {
+      "count": 4,
+      "files": [
+        "product/feedback-synthesizer.md",
+        "product/manager-2.md",
+        "product/manager.md",
+        "product/trend-researcher.md"
+      ]
+    },
+    "research": {
+      "count": 4,
+      "files": [
+        "research/analyst.md",
+        "research/competitive-analyst.md",
+        "research/market-researcher.md",
+        "research/scientific-literature-researcher.md"
+      ]
+    },
+    "security": {
+      "count": 4,
+      "files": [
+        "security/auditor.md",
+        "security/sast-specialist.md",
+        "security/supply-chain-security-expert.md",
+        "security/threat-modeling-expert.md"
+      ]
+    },
+    "telegram": {
+      "count": 4,
+      "files": [
+        "telegram/api-designer.md",
+        "telegram/backend-architect.md",
+        "telegram/mcp-builder.md",
+        "telegram/workflow-architect.md"
+      ]
+    }
+  }
+}

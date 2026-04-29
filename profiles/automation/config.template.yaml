@@ -1,0 +1,14 @@
+model:
+  provider: <PROVIDER>
+  default: <MODEL_NAME>
+gateway:
+  telegram:
+    enabled: true
+    chat_id: <TELEGRAM_CHAT_ID>
+    message_thread_id: <AUTOMATION_TOPIC_ID>
+    bot_username: <AUTOMATION_BOT_USERNAME>
+mcp_servers: {}
+profile:
+  name: telegram-agent-automation
+  role: automation
+  routing: strict_topic_binding

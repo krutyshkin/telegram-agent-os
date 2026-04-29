@@ -1,0 +1,14 @@
+model:
+  provider: <PROVIDER>
+  default: <MODEL_NAME>
+gateway:
+  telegram:
+    enabled: true
+    chat_id: <TELEGRAM_CHAT_ID>
+    message_thread_id: <DESIGN_TOPIC_ID>
+    bot_username: <DESIGN_BOT_USERNAME>
+mcp_servers: {}
+profile:
+  name: telegram-agent-design
+  role: design
+  routing: strict_topic_binding

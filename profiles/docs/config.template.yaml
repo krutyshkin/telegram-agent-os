@@ -1,0 +1,14 @@
+model:
+  provider: <PROVIDER>
+  default: <MODEL_NAME>
+gateway:
+  telegram:
+    enabled: true
+    chat_id: <TELEGRAM_CHAT_ID>
+    message_thread_id: <DOCS_TOPIC_ID>
+    bot_username: <DOCS_BOT_USERNAME>
+mcp_servers: {}
+profile:
+  name: telegram-agent-docs
+  role: docs
+  routing: strict_topic_binding
