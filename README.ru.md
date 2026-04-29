@@ -9,7 +9,6 @@
 <br />
 <br />
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Role agents](https://img.shields.io/badge/role%20agents-13-7C3AED?style=flat-square)
 ![Skills](https://img.shields.io/badge/skills-242-22C55E?style=flat-square)
 ![Selected prompts](https://img.shields.io/badge/selected%20prompts-55-F97316?style=flat-square)
@@ -49,11 +48,9 @@ Telegram Agent OS это публичный template для превращени
 ### 1. Склонировать репозиторий
 
 ```bash
-git clone https://github.com/<OWNER>/telegram-agent-os.git
+git clone https://github.com/krutyshkin/telegram-agent-os.git
 cd telegram-agent-os
 ```
-
-`<OWNER>` нужно заменить после создания публичного репозитория.
 
 ### 2. Проверить пакет
 
@@ -239,31 +236,9 @@ Skills это reusable procedures в формате `SKILL.md`. Они не ра
 
 Validator проверяет private names, Telegram token patterns, GitHub token patterns, OpenAI-like secret patterns, private local paths, private Telegram IDs, missing profile files и случайную кириллицу вне русского README.
 
-## Чек-лист готовности к GitHub
-
-Перед публикацией:
-
-- [ ] Запустить `python3 scripts/validate_public_package.py`.
-- [ ] Убедиться, что реальные `.env` файлы не включены.
-- [ ] Подтвердить, что Telegram bot tokens не включены.
-- [ ] Убедиться, что private chat IDs и topic IDs не включены.
-- [ ] Подтвердить, что README links публично безопасны.
-- [ ] Подтвердить, что `LICENSE` есть и использует MIT license.
-- [ ] Убедиться, что donation links это placeholders или реальные публичные ссылки, которые можно показывать.
-
 ## Поставь звезду репозиторию
 
 Если проект помог собрать Telegram-based agent workspace, поставь звезду репозиторию. Так другие операторы быстрее найдут template, а мы поймём, какие части стоит улучшать дальше.
-
-## Roadmap
-
-- [ ] Добавить реальные screenshots Telegram topic routing.
-- [ ] Добавить optional MCP packs с risk labels.
-- [ ] Добавить systemd unit examples.
-- [ ] Добавить topic-map profile generator.
-- [x] Добавить GitHub Actions validation.
-- [ ] Добавить single-bot и multi-bot deployment examples.
-- [x] Добавить public TON и CryptoBot donation links.
 
 ## Поддержать проект
 

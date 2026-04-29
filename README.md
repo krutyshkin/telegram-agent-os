@@ -9,7 +9,6 @@
 <br />
 <br />
 
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 ![Role agents](https://img.shields.io/badge/role%20agents-13-7C3AED?style=flat-square)
 ![Skills](https://img.shields.io/badge/skills-242-22C55E?style=flat-square)
 ![Selected prompts](https://img.shields.io/badge/selected%20prompts-55-F97316?style=flat-square)
@@ -49,11 +48,9 @@ The package is sanitized. It contains no real bot tokens, chat IDs, topic IDs, p
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/<OWNER>/telegram-agent-os.git
+git clone https://github.com/krutyshkin/telegram-agent-os.git
 cd telegram-agent-os
 ```
-
-Replace `<OWNER>` after the public repository exists.
 
 ### 2. Validate the package
 
@@ -239,31 +236,9 @@ Default policy:
 
 The validator checks for private names, Telegram token patterns, GitHub token patterns, OpenAI-like secret patterns, private local paths, private Telegram IDs, missing profile files, and accidental Cyrillic outside the Russian README.
 
-## GitHub readiness checklist
-
-Before publishing:
-
-- [ ] Run `python3 scripts/validate_public_package.py`.
-- [ ] Confirm that real `.env` files are not included.
-- [ ] Confirm that Telegram bot tokens are not included.
-- [ ] Confirm that private chat IDs and topic IDs are not included.
-- [ ] Confirm that README links are public-safe.
-- [ ] Confirm that `LICENSE` exists and uses the MIT license.
-- [ ] Confirm that donation links are either placeholders or public links you intend to share.
-
 ## Star this repository
 
 If this project helps you build a Telegram-based agent workspace, star the repo. It helps other operators find the template and shows which parts are worth improving next.
-
-## Roadmap
-
-- [ ] Add real screenshots of Telegram topic routing.
-- [ ] Add optional MCP packs with risk labels.
-- [ ] Add systemd unit examples.
-- [ ] Add a topic-map profile generator.
-- [x] Add GitHub Actions validation.
-- [ ] Add single-bot and multi-bot deployment examples.
-- [x] Add public TON and CryptoBot donation links.
 
 ## Support the project
 
