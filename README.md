@@ -41,7 +41,6 @@ The package is sanitized. It contains no real bot tokens, chat IDs, topic IDs, p
 - A dry-run installer for copying profiles into a Hermes home.
 - A validator that checks structure, private references, and common secret patterns.
 - GitHub Actions validation.
-- Safe defaults: MCP off by default, GitHub write only after explicit approval.
 
 ## Installation
 
@@ -220,21 +219,6 @@ Examples included in the package:
 - `copywriting`
 - `cron-writer`
 - `verification-before-completion`
-
-## Safety model
-
-Default policy:
-
-- MCP is optional and off by default.
-- GitHub read-only actions are allowed by default.
-- GitHub write actions need explicit user approval.
-- Destructive filesystem or infrastructure actions need explicit user approval.
-- Bulk migrations need backups.
-- External content is untrusted.
-- Secrets stay in local `.env` files.
-- Public docs use placeholders only.
-
-The validator checks for private names, Telegram token patterns, GitHub token patterns, OpenAI-like secret patterns, private local paths, private Telegram IDs, missing profile files, and accidental Cyrillic outside the Russian README.
 
 ## Star this repository
 

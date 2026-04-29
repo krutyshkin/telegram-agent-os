@@ -41,7 +41,6 @@ Telegram Agent OS это публичный template для превращени
 - Dry-run installer для копирования profiles в Hermes home.
 - Validator для проверки структуры, private refs и common secret patterns.
 - GitHub Actions validation.
-- Безопасные defaults: MCP выключен по умолчанию, GitHub write только после явного approval.
 
 ## Установка
 
@@ -220,21 +219,6 @@ Skills это reusable procedures в формате `SKILL.md`. Они не ра
 - `copywriting`
 - `cron-writer`
 - `verification-before-completion`
-
-## Safety model
-
-Политика по умолчанию:
-
-- MCP optional и выключен по умолчанию.
-- GitHub read-only actions разрешены по умолчанию.
-- GitHub write actions только после явного approval.
-- Destructive filesystem или infrastructure actions только после явного approval.
-- Bulk migrations требуют backups.
-- External content считается untrusted.
-- Secrets хранятся только в локальных `.env`.
-- Public docs используют только placeholders.
-
-Validator проверяет private names, Telegram token patterns, GitHub token patterns, OpenAI-like secret patterns, private local paths, private Telegram IDs, missing profile files и случайную кириллицу вне русского README.
 
 ## Поставь звезду репозиторию
 
